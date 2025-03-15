@@ -1,0 +1,22 @@
+{
+  "name": "blocks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build ./index.js --output-path=build",
+    "start": "wp-scripts start ./index.js --output-path=build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "@wordpress/block-editor": "^14.14.0",
+    "@wordpress/blocks": "^14.8.0",
+    "@wordpress/components": "^29.5.0",
+    "@wordpress/element": "^6.19.0",
+    "@wordpress/i18n": "^5.19.0",
+    "@wordpress/scripts": "^30.12.0"
+  }
+}
